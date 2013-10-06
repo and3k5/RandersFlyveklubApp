@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352EEB9817F5781A00FB7808 /* randersflyveklubMapSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352EEB9717F5781A00FB7808 /* randersflyveklubMapSettingsViewController.m */; };
+		354A9EB517F41B690069EBDA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A9EB417F41B690069EBDA /* libsqlite3.dylib */; };
+		354A9EB717F41BAD0069EBDA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A9EB617F41BAD0069EBDA /* libsqlite3.0.dylib */; };
+		354A9EB917F42FF10069EBDA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 354A9EB817F42FF10069EBDA /* Settings.bundle */; };
+		354E2FAA17F2C5E90031BF45 /* randersflyveklubSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354E2FA917F2C5E90031BF45 /* randersflyveklubSecondViewController.m */; };
+		354E2FAE17F30A140031BF45 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354E2FAC17F30A140031BF45 /* ContactViewController.m */; };
+		354E2FAF17F30A140031BF45 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354E2FAD17F30A140031BF45 /* ContactViewController.xib */; };
+		354E2FB117F317B90031BF45 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354E2FB017F317B90031BF45 /* MessageUI.framework */; };
+		35E3002917F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E3002817F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.m */; };
+		35E3003517F9735D00A9DCAA /* SiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E3003317F9735D00A9DCAA /* SiteViewController.m */; };
+		35E3003617F9735D00A9DCAA /* SiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E3003417F9735D00A9DCAA /* SiteViewController.xib */; };
+		35E3003F17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E3003E17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.m */; };
+		35E82DBE17FBFF83003A9852 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E82DBD17FBFF83003A9852 /* InfoWindow.xib */; };
+		35E82DC117FBFF9D003A9852 /* InfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E82DC017FBFF9D003A9852 /* InfoWindow.m */; };
+		35E82DC917FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E82DC817FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.m */; };
+		35E830E917FD6A34003A9852 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830E417FD6A34003A9852 /* calculator.png */; };
+		35E830EA17FD6A34003A9852 /* earth-usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830E517FD6A34003A9852 /* earth-usa.png */; };
+		35E830EB17FD6A34003A9852 /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830E617FD6A34003A9852 /* map-pin.png */; };
+		35E830EC17FD6A34003A9852 /* phone-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830E717FD6A34003A9852 /* phone-book.png */; };
+		35E830ED17FD6A34003A9852 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830E817FD6A34003A9852 /* rss.png */; };
+		35E830F917FD6ABA003A9852 /* airfield15px.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830EE17FD6AB9003A9852 /* airfield15px.png */; };
+		35E830FA17FD6ABA003A9852 /* airfield26px.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830EF17FD6AB9003A9852 /* airfield26px.png */; };
+		35E830FB17FD6ABA003A9852 /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F017FD6AB9003A9852 /* airplane.png */; };
+		35E830FF17FD6ABA003A9852 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F417FD6AB9003A9852 /* first.png */; };
+		35E8310017FD6ABA003A9852 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F517FD6AB9003A9852 /* first@2x.png */; };
+		35E8310117FD6ABA003A9852 /* infowindow.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F617FD6AB9003A9852 /* infowindow.png */; };
+		35E8310217FD6ABA003A9852 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F717FD6ABA003A9852 /* second.png */; };
+		35E8310317FD6ABA003A9852 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E830F817FD6ABA003A9852 /* second@2x.png */; };
+		35E8310617FD6B1F003A9852 /* airfields.rdb in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310417FD6B1F003A9852 /* airfields.rdb */; };
+		35E8310717FD6B1F003A9852 /* weblinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310517FD6B1F003A9852 /* weblinks.plist */; };
+		35E8310917FD8165003A9852 /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310817FD8164003A9852 /* icon72x72.png */; };
+		35E8310B17FD81E4003A9852 /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310A17FD81E4003A9852 /* icon144x144.png */; };
+		35E8310D17FD8470003A9852 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310C17FD846F003A9852 /* Default-Portrait~ipad.png */; };
+		35E8310F17FD84CA003A9852 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E8310E17FD84C9003A9852 /* Default-Landscape~ipad.png */; };
+		35FB992917F18D1000A30CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB992817F18D1000A30CF5 /* UIKit.framework */; };
+		35FB992B17F18D1000A30CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB992A17F18D1000A30CF5 /* Foundation.framework */; };
+		35FB992D17F18D1000A30CF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB992C17F18D1000A30CF5 /* CoreGraphics.framework */; };
+		35FB993317F18D1000A30CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FB993117F18D1000A30CF5 /* InfoPlist.strings */; };
+		35FB993517F18D1000A30CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB993417F18D1000A30CF5 /* main.m */; };
+		35FB993917F18D1000A30CF5 /* randersflyveklubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB993817F18D1000A30CF5 /* randersflyveklubAppDelegate.m */; };
+		35FB993B17F18D1000A30CF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FB993A17F18D1000A30CF5 /* Default.png */; };
+		35FB993D17F18D1000A30CF5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FB993C17F18D1000A30CF5 /* Default@2x.png */; };
+		35FB993F17F18D1000A30CF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FB993E17F18D1000A30CF5 /* Default-568h@2x.png */; };
+		35FB994217F18D1000A30CF5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FB994017F18D1000A30CF5 /* MainStoryboard.storyboard */; };
+		35FB994517F18D1000A30CF5 /* randersflyveklubFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB994417F18D1000A30CF5 /* randersflyveklubFirstViewController.m */; };
+		35FB995817F18D1000A30CF5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB995717F18D1000A30CF5 /* SenTestingKit.framework */; };
+		35FB995917F18D1000A30CF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB992817F18D1000A30CF5 /* UIKit.framework */; };
+		35FB995A17F18D1000A30CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB992A17F18D1000A30CF5 /* Foundation.framework */; };
+		35FB996217F18D1000A30CF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FB996017F18D1000A30CF5 /* InfoPlist.strings */; };
+		35FB996517F18D1000A30CF5 /* randersflyveklubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB996417F18D1000A30CF5 /* randersflyveklubTests.m */; };
+		35FB996F17F18F5D00A30CF5 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB996E17F18F5D00A30CF5 /* GoogleMaps.framework */; };
+		35FB997117F18FA300A30CF5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35FB997017F18FA300A30CF5 /* GoogleMaps.bundle */; };
+		35FB997317F18FE100A30CF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997217F18FE100A30CF5 /* AVFoundation.framework */; };
+		35FB997517F18FE900A30CF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997417F18FE900A30CF5 /* CoreData.framework */; };
+		35FB997717F18FEF00A30CF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997617F18FEF00A30CF5 /* CoreLocation.framework */; };
+		35FB997917F18FF600A30CF5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997817F18FF600A30CF5 /* CoreText.framework */; };
+		35FB997B17F18FFE00A30CF5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997A17F18FFE00A30CF5 /* GLKit.framework */; };
+		35FB997D17F1900200A30CF5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997C17F1900200A30CF5 /* ImageIO.framework */; };
+		35FB997F17F1901D00A30CF5 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB997E17F1901D00A30CF5 /* libc++.dylib */; };
+		35FB998117F1902800A30CF5 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB998017F1902800A30CF5 /* libicucore.dylib */; };
+		35FB998317F1903000A30CF5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB998217F1903000A30CF5 /* libz.dylib */; };
+		35FB998517F1903600A30CF5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB998417F1903500A30CF5 /* OpenGLES.framework */; };
+		35FB998717F1903B00A30CF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB998617F1903B00A30CF5 /* QuartzCore.framework */; };
+		35FB998917F1904100A30CF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FB998817F1904100A30CF5 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35FB995B17F18D1000A30CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35FB991D17F18D1000A30CF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35FB992417F18D1000A30CF5;
+			remoteInfo = randersflyveklub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		352EEB9617F5781A00FB7808 /* randersflyveklubMapSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randersflyveklubMapSettingsViewController.h; sourceTree = SOURCE_ROOT; };
+		352EEB9717F5781A00FB7808 /* randersflyveklubMapSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubMapSettingsViewController.m; sourceTree = SOURCE_ROOT; };
+		354A9EB417F41B690069EBDA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		354A9EB617F41BAD0069EBDA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		354A9EB817F42FF10069EBDA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		354E2FA817F2C5E90031BF45 /* randersflyveklubSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randersflyveklubSecondViewController.h; sourceTree = "<group>"; };
+		354E2FA917F2C5E90031BF45 /* randersflyveklubSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubSecondViewController.m; sourceTree = "<group>"; };
+		354E2FAB17F30A140031BF45 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		354E2FAC17F30A140031BF45 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		354E2FAD17F30A140031BF45 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		354E2FB017F317B90031BF45 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		35E3002717F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randersflyveklubWebViewTableControllerViewController.h; sourceTree = "<group>"; };
+		35E3002817F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubWebViewTableControllerViewController.m; sourceTree = "<group>"; };
+		35E3003217F9735D00A9DCAA /* SiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteViewController.h; sourceTree = "<group>"; };
+		35E3003317F9735D00A9DCAA /* SiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteViewController.m; sourceTree = "<group>"; };
+		35E3003417F9735D00A9DCAA /* SiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteViewController.xib; sourceTree = "<group>"; };
+		35E3003D17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randersflyveklubWeatherViewController.h; sourceTree = "<group>"; };
+		35E3003E17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubWeatherViewController.m; sourceTree = "<group>"; };
+		35E82DBD17FBFF83003A9852 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		35E82DBF17FBFF9D003A9852 /* InfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoWindow.h; sourceTree = "<group>"; };
+		35E82DC017FBFF9D003A9852 /* InfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoWindow.m; sourceTree = "<group>"; };
+		35E82DC717FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randersflyveklubCalcSpeedViewController.h; sourceTree = "<group>"; };
+		35E82DC817FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubCalcSpeedViewController.m; sourceTree = "<group>"; };
+		35E830E417FD6A34003A9852 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = resources/calculator.png; sourceTree = "<group>"; };
+		35E830E517FD6A34003A9852 /* earth-usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-usa.png"; path = "resources/earth-usa.png"; sourceTree = "<group>"; };
+		35E830E617FD6A34003A9852 /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "resources/map-pin.png"; sourceTree = "<group>"; };
+		35E830E717FD6A34003A9852 /* phone-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "phone-book.png"; path = "resources/phone-book.png"; sourceTree = "<group>"; };
+		35E830E817FD6A34003A9852 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss.png; path = resources/rss.png; sourceTree = "<group>"; };
+		35E830EE17FD6AB9003A9852 /* airfield15px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airfield15px.png; path = resources/airfield15px.png; sourceTree = "<group>"; };
+		35E830EF17FD6AB9003A9852 /* airfield26px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airfield26px.png; path = resources/airfield26px.png; sourceTree = "<group>"; };
+		35E830F017FD6AB9003A9852 /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airplane.png; path = resources/airplane.png; sourceTree = "<group>"; };
+		35E830F417FD6AB9003A9852 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = resources/first.png; sourceTree = "<group>"; };
+		35E830F517FD6AB9003A9852 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "resources/first@2x.png"; sourceTree = "<group>"; };
+		35E830F617FD6AB9003A9852 /* infowindow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infowindow.png; path = resources/infowindow.png; sourceTree = "<group>"; };
+		35E830F717FD6ABA003A9852 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = resources/second.png; sourceTree = "<group>"; };
+		35E830F817FD6ABA003A9852 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "resources/second@2x.png"; sourceTree = "<group>"; };
+		35E8310417FD6B1F003A9852 /* airfields.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = airfields.rdb; path = resources/airfields.rdb; sourceTree = "<group>"; };
+		35E8310517FD6B1F003A9852 /* weblinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = weblinks.plist; path = resources/weblinks.plist; sourceTree = "<group>"; };
+		35E8310817FD8164003A9852 /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72x72.png; sourceTree = "<group>"; };
+		35E8310A17FD81E4003A9852 /* icon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144x144.png; sourceTree = "<group>"; };
+		35E8310C17FD846F003A9852 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		35E8310E17FD84C9003A9852 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		35FB992517F18D1000A30CF5 /* Randers Flyveklub App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Randers Flyveklub App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FB992817F18D1000A30CF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35FB992A17F18D1000A30CF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35FB992C17F18D1000A30CF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35FB993017F18D1000A30CF5 /* randersflyveklub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "randersflyveklub-Info.plist"; sourceTree = "<group>"; };
+		35FB993217F18D1000A30CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FB993417F18D1000A30CF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35FB993617F18D1000A30CF5 /* randersflyveklub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "randersflyveklub-Prefix.pch"; sourceTree = "<group>"; };
+		35FB993717F18D1000A30CF5 /* randersflyveklubAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = randersflyveklubAppDelegate.h; sourceTree = "<group>"; };
+		35FB993817F18D1000A30CF5 /* randersflyveklubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubAppDelegate.m; sourceTree = "<group>"; };
+		35FB993A17F18D1000A30CF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		35FB993C17F18D1000A30CF5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		35FB993E17F18D1000A30CF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35FB994117F18D1000A30CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		35FB994317F18D1000A30CF5 /* randersflyveklubFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = randersflyveklubFirstViewController.h; sourceTree = "<group>"; };
+		35FB994417F18D1000A30CF5 /* randersflyveklubFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubFirstViewController.m; sourceTree = "<group>"; };
+		35FB995617F18D1000A30CF5 /* randersflyveklubTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randersflyveklubTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FB995717F18D1000A30CF5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		35FB995F17F18D1000A30CF5 /* randersflyveklubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "randersflyveklubTests-Info.plist"; sourceTree = "<group>"; };
+		35FB996117F18D1000A30CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35FB996317F18D1000A30CF5 /* randersflyveklubTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = randersflyveklubTests.h; sourceTree = "<group>"; };
+		35FB996417F18D1000A30CF5 /* randersflyveklubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = randersflyveklubTests.m; sourceTree = "<group>"; };
+		35FB996E17F18F5D00A30CF5 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		35FB997017F18FA300A30CF5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		35FB997217F18FE100A30CF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		35FB997417F18FE900A30CF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		35FB997617F18FEF00A30CF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		35FB997817F18FF600A30CF5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		35FB997A17F18FFE00A30CF5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		35FB997C17F1900200A30CF5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		35FB997E17F1901D00A30CF5 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		35FB998017F1902800A30CF5 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		35FB998217F1903000A30CF5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		35FB998417F1903500A30CF5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		35FB998617F1903B00A30CF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35FB998817F1904100A30CF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FB992217F18D1000A30CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354A9EB717F41BAD0069EBDA /* libsqlite3.0.dylib in Frameworks */,
+				354A9EB517F41B690069EBDA /* libsqlite3.dylib in Frameworks */,
+				354E2FB117F317B90031BF45 /* MessageUI.framework in Frameworks */,
+				35FB998917F1904100A30CF5 /* SystemConfiguration.framework in Frameworks */,
+				35FB998717F1903B00A30CF5 /* QuartzCore.framework in Frameworks */,
+				35FB998517F1903600A30CF5 /* OpenGLES.framework in Frameworks */,
+				35FB998317F1903000A30CF5 /* libz.dylib in Frameworks */,
+				35FB998117F1902800A30CF5 /* libicucore.dylib in Frameworks */,
+				35FB997F17F1901D00A30CF5 /* libc++.dylib in Frameworks */,
+				35FB997D17F1900200A30CF5 /* ImageIO.framework in Frameworks */,
+				35FB997B17F18FFE00A30CF5 /* GLKit.framework in Frameworks */,
+				35FB997917F18FF600A30CF5 /* CoreText.framework in Frameworks */,
+				35FB997717F18FEF00A30CF5 /* CoreLocation.framework in Frameworks */,
+				35FB997517F18FE900A30CF5 /* CoreData.framework in Frameworks */,
+				35FB997317F18FE100A30CF5 /* AVFoundation.framework in Frameworks */,
+				35FB992917F18D1000A30CF5 /* UIKit.framework in Frameworks */,
+				35FB992B17F18D1000A30CF5 /* Foundation.framework in Frameworks */,
+				35FB992D17F18D1000A30CF5 /* CoreGraphics.framework in Frameworks */,
+				35FB996F17F18F5D00A30CF5 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FB995217F18D1000A30CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB995817F18D1000A30CF5 /* SenTestingKit.framework in Frameworks */,
+				35FB995917F18D1000A30CF5 /* UIKit.framework in Frameworks */,
+				35FB995A17F18D1000A30CF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E3003717F9784800A9DCAA /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				352EEB9617F5781A00FB7808 /* randersflyveklubMapSettingsViewController.h */,
+				352EEB9717F5781A00FB7808 /* randersflyveklubMapSettingsViewController.m */,
+				35FB994317F18D1000A30CF5 /* randersflyveklubFirstViewController.h */,
+				35FB994417F18D1000A30CF5 /* randersflyveklubFirstViewController.m */,
+				35E82DBD17FBFF83003A9852 /* InfoWindow.xib */,
+				35E82DBF17FBFF9D003A9852 /* InfoWindow.h */,
+				35E82DC017FBFF9D003A9852 /* InfoWindow.m */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		35E3003817F9787200A9DCAA /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				354E2FA817F2C5E90031BF45 /* randersflyveklubSecondViewController.h */,
+				354E2FA917F2C5E90031BF45 /* randersflyveklubSecondViewController.m */,
+				354E2FAB17F30A140031BF45 /* ContactViewController.h */,
+				354E2FAC17F30A140031BF45 /* ContactViewController.m */,
+				354E2FAD17F30A140031BF45 /* ContactViewController.xib */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		35E3003A17F978BB00A9DCAA /* WebLinks */ = {
+			isa = PBXGroup;
+			children = (
+				35E3002717F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.h */,
+				35E3002817F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.m */,
+				35E3003217F9735D00A9DCAA /* SiteViewController.h */,
+				35E3003317F9735D00A9DCAA /* SiteViewController.m */,
+				35E3003417F9735D00A9DCAA /* SiteViewController.xib */,
+			);
+			name = WebLinks;
+			sourceTree = "<group>";
+		};
+		35E3003B17F978CF00A9DCAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35E8310417FD6B1F003A9852 /* airfields.rdb */,
+				35E8310517FD6B1F003A9852 /* weblinks.plist */,
+				35E830EE17FD6AB9003A9852 /* airfield15px.png */,
+				35E830EF17FD6AB9003A9852 /* airfield26px.png */,
+				35E830F017FD6AB9003A9852 /* airplane.png */,
+				35E830F417FD6AB9003A9852 /* first.png */,
+				35E830F517FD6AB9003A9852 /* first@2x.png */,
+				35E830F617FD6AB9003A9852 /* infowindow.png */,
+				35E830F717FD6ABA003A9852 /* second.png */,
+				35E830F817FD6ABA003A9852 /* second@2x.png */,
+				35E830E417FD6A34003A9852 /* calculator.png */,
+				35E830E517FD6A34003A9852 /* earth-usa.png */,
+				35E830E617FD6A34003A9852 /* map-pin.png */,
+				35E830E717FD6A34003A9852 /* phone-book.png */,
+				35E830E817FD6A34003A9852 /* rss.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35E3003C17F97A4100A9DCAA /* RFKWeather */ = {
+			isa = PBXGroup;
+			children = (
+				35E3003D17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.h */,
+				35E3003E17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.m */,
+			);
+			name = RFKWeather;
+			sourceTree = "<group>";
+		};
+		35E82DC617FC2E04003A9852 /* Calc speed */ = {
+			isa = PBXGroup;
+			children = (
+				35E82DC717FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.h */,
+				35E82DC817FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.m */,
+			);
+			name = "Calc speed";
+			sourceTree = "<group>";
+		};
+		35FB991C17F18D1000A30CF5 = {
+			isa = PBXGroup;
+			children = (
+				35E8310E17FD84C9003A9852 /* Default-Landscape~ipad.png */,
+				35E8310C17FD846F003A9852 /* Default-Portrait~ipad.png */,
+				35E8310A17FD81E4003A9852 /* icon144x144.png */,
+				35E8310817FD8164003A9852 /* icon72x72.png */,
+				354A9EB817F42FF10069EBDA /* Settings.bundle */,
+				35FB992E17F18D1000A30CF5 /* randersflyveklub */,
+				35FB995D17F18D1000A30CF5 /* randersflyveklubTests */,
+				35FB992717F18D1000A30CF5 /* Frameworks */,
+				35FB992617F18D1000A30CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35FB992617F18D1000A30CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35FB992517F18D1000A30CF5 /* Randers Flyveklub App.app */,
+				35FB995617F18D1000A30CF5 /* randersflyveklubTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35FB992717F18D1000A30CF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				354A9EB617F41BAD0069EBDA /* libsqlite3.0.dylib */,
+				354A9EB417F41B690069EBDA /* libsqlite3.dylib */,
+				354E2FB017F317B90031BF45 /* MessageUI.framework */,
+				35FB998817F1904100A30CF5 /* SystemConfiguration.framework */,
+				35FB998617F1903B00A30CF5 /* QuartzCore.framework */,
+				35FB998417F1903500A30CF5 /* OpenGLES.framework */,
+				35FB998217F1903000A30CF5 /* libz.dylib */,
+				35FB998017F1902800A30CF5 /* libicucore.dylib */,
+				35FB997E17F1901D00A30CF5 /* libc++.dylib */,
+				35FB997C17F1900200A30CF5 /* ImageIO.framework */,
+				35FB997A17F18FFE00A30CF5 /* GLKit.framework */,
+				35FB997817F18FF600A30CF5 /* CoreText.framework */,
+				35FB997617F18FEF00A30CF5 /* CoreLocation.framework */,
+				35FB997417F18FE900A30CF5 /* CoreData.framework */,
+				35FB997217F18FE100A30CF5 /* AVFoundation.framework */,
+				35FB997017F18FA300A30CF5 /* GoogleMaps.bundle */,
+				35FB996E17F18F5D00A30CF5 /* GoogleMaps.framework */,
+				35FB992817F18D1000A30CF5 /* UIKit.framework */,
+				35FB992A17F18D1000A30CF5 /* Foundation.framework */,
+				35FB992C17F18D1000A30CF5 /* CoreGraphics.framework */,
+				35FB995717F18D1000A30CF5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35FB992E17F18D1000A30CF5 /* randersflyveklub */ = {
+			isa = PBXGroup;
+			children = (
+				35E82DC617FC2E04003A9852 /* Calc speed */,
+				35E3003C17F97A4100A9DCAA /* RFKWeather */,
+				35FB993717F18D1000A30CF5 /* randersflyveklubAppDelegate.h */,
+				35FB993817F18D1000A30CF5 /* randersflyveklubAppDelegate.m */,
+				35E3003717F9784800A9DCAA /* MapView */,
+				35E3003A17F978BB00A9DCAA /* WebLinks */,
+				35E3003817F9787200A9DCAA /* Contacts */,
+				35FB994017F18D1000A30CF5 /* MainStoryboard.storyboard */,
+				35E3003B17F978CF00A9DCAA /* Resources */,
+				35FB992F17F18D1000A30CF5 /* Supporting Files */,
+			);
+			path = randersflyveklub;
+			sourceTree = "<group>";
+		};
+		35FB992F17F18D1000A30CF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FB993017F18D1000A30CF5 /* randersflyveklub-Info.plist */,
+				35FB993117F18D1000A30CF5 /* InfoPlist.strings */,
+				35FB993417F18D1000A30CF5 /* main.m */,
+				35FB993617F18D1000A30CF5 /* randersflyveklub-Prefix.pch */,
+				35FB993A17F18D1000A30CF5 /* Default.png */,
+				35FB993C17F18D1000A30CF5 /* Default@2x.png */,
+				35FB993E17F18D1000A30CF5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35FB995D17F18D1000A30CF5 /* randersflyveklubTests */ = {
+			isa = PBXGroup;
+			children = (
+				35FB996317F18D1000A30CF5 /* randersflyveklubTests.h */,
+				35FB996417F18D1000A30CF5 /* randersflyveklubTests.m */,
+				35FB995E17F18D1000A30CF5 /* Supporting Files */,
+			);
+			path = randersflyveklubTests;
+			sourceTree = "<group>";
+		};
+		35FB995E17F18D1000A30CF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FB995F17F18D1000A30CF5 /* randersflyveklubTests-Info.plist */,
+				35FB996017F18D1000A30CF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35FB992417F18D1000A30CF5 /* randersflyveklub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FB996817F18D1000A30CF5 /* Build configuration list for PBXNativeTarget "randersflyveklub" */;
+			buildPhases = (
+				35FB992117F18D1000A30CF5 /* Sources */,
+				35FB992217F18D1000A30CF5 /* Frameworks */,
+				35FB992317F18D1000A30CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = randersflyveklub;
+			productName = randersflyveklub;
+			productReference = 35FB992517F18D1000A30CF5 /* Randers Flyveklub App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35FB995517F18D1000A30CF5 /* randersflyveklubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FB996B17F18D1000A30CF5 /* Build configuration list for PBXNativeTarget "randersflyveklubTests" */;
+			buildPhases = (
+				35FB995117F18D1000A30CF5 /* Sources */,
+				35FB995217F18D1000A30CF5 /* Frameworks */,
+				35FB995317F18D1000A30CF5 /* Resources */,
+				35FB995417F18D1000A30CF5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FB995C17F18D1000A30CF5 /* PBXTargetDependency */,
+			);
+			name = randersflyveklubTests;
+			productName = randersflyveklubTests;
+			productReference = 35FB995617F18D1000A30CF5 /* randersflyveklubTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35FB991D17F18D1000A30CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = randersflyveklub;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = and3k5;
+			};
+			buildConfigurationList = 35FB992017F18D1000A30CF5 /* Build configuration list for PBXProject "randersflyveklub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35FB991C17F18D1000A30CF5;
+			productRefGroup = 35FB992617F18D1000A30CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35FB992417F18D1000A30CF5 /* randersflyveklub */,
+				35FB995517F18D1000A30CF5 /* randersflyveklubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35FB992317F18D1000A30CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB993317F18D1000A30CF5 /* InfoPlist.strings in Resources */,
+				35FB993B17F18D1000A30CF5 /* Default.png in Resources */,
+				35FB993D17F18D1000A30CF5 /* Default@2x.png in Resources */,
+				35FB993F17F18D1000A30CF5 /* Default-568h@2x.png in Resources */,
+				35FB994217F18D1000A30CF5 /* MainStoryboard.storyboard in Resources */,
+				35FB997117F18FA300A30CF5 /* GoogleMaps.bundle in Resources */,
+				354E2FAF17F30A140031BF45 /* ContactViewController.xib in Resources */,
+				354A9EB917F42FF10069EBDA /* Settings.bundle in Resources */,
+				35E3003617F9735D00A9DCAA /* SiteViewController.xib in Resources */,
+				35E82DBE17FBFF83003A9852 /* InfoWindow.xib in Resources */,
+				35E830E917FD6A34003A9852 /* calculator.png in Resources */,
+				35E830EA17FD6A34003A9852 /* earth-usa.png in Resources */,
+				35E830EB17FD6A34003A9852 /* map-pin.png in Resources */,
+				35E830EC17FD6A34003A9852 /* phone-book.png in Resources */,
+				35E830ED17FD6A34003A9852 /* rss.png in Resources */,
+				35E830F917FD6ABA003A9852 /* airfield15px.png in Resources */,
+				35E830FA17FD6ABA003A9852 /* airfield26px.png in Resources */,
+				35E830FB17FD6ABA003A9852 /* airplane.png in Resources */,
+				35E830FF17FD6ABA003A9852 /* first.png in Resources */,
+				35E8310017FD6ABA003A9852 /* first@2x.png in Resources */,
+				35E8310117FD6ABA003A9852 /* infowindow.png in Resources */,
+				35E8310217FD6ABA003A9852 /* second.png in Resources */,
+				35E8310317FD6ABA003A9852 /* second@2x.png in Resources */,
+				35E8310617FD6B1F003A9852 /* airfields.rdb in Resources */,
+				35E8310717FD6B1F003A9852 /* weblinks.plist in Resources */,
+				35E8310917FD8165003A9852 /* icon72x72.png in Resources */,
+				35E8310B17FD81E4003A9852 /* icon144x144.png in Resources */,
+				35E8310D17FD8470003A9852 /* Default-Portrait~ipad.png in Resources */,
+				35E8310F17FD84CA003A9852 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FB995317F18D1000A30CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB996217F18D1000A30CF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35FB995417F18D1000A30CF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35FB992117F18D1000A30CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB993517F18D1000A30CF5 /* main.m in Sources */,
+				35FB993917F18D1000A30CF5 /* randersflyveklubAppDelegate.m in Sources */,
+				35FB994517F18D1000A30CF5 /* randersflyveklubFirstViewController.m in Sources */,
+				354E2FAA17F2C5E90031BF45 /* randersflyveklubSecondViewController.m in Sources */,
+				354E2FAE17F30A140031BF45 /* ContactViewController.m in Sources */,
+				352EEB9817F5781A00FB7808 /* randersflyveklubMapSettingsViewController.m in Sources */,
+				35E3002917F96C3D00A9DCAA /* randersflyveklubWebViewTableControllerViewController.m in Sources */,
+				35E3003517F9735D00A9DCAA /* SiteViewController.m in Sources */,
+				35E3003F17F97A5F00A9DCAA /* randersflyveklubWeatherViewController.m in Sources */,
+				35E82DC117FBFF9D003A9852 /* InfoWindow.m in Sources */,
+				35E82DC917FC2E60003A9852 /* randersflyveklubCalcSpeedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FB995117F18D1000A30CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB996517F18D1000A30CF5 /* randersflyveklubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FB995C17F18D1000A30CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35FB992417F18D1000A30CF5 /* randersflyveklub */;
+			targetProxy = 35FB995B17F18D1000A30CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35FB993117F18D1000A30CF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FB993217F18D1000A30CF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35FB994017F18D1000A30CF5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FB994117F18D1000A30CF5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		35FB996017F18D1000A30CF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FB996117F18D1000A30CF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35FB996617F18D1000A30CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Randers Flyveklub App";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		35FB996717F18D1000A30CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "Randers Flyveklub App";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35FB996917F18D1000A30CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randersflyveklub/randersflyveklub-Prefix.pch";
+				INFOPLIST_FILE = "randersflyveklub/randersflyveklub-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Randers Flyveklub App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35FB996A17F18D1000A30CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randersflyveklub/randersflyveklub-Prefix.pch";
+				INFOPLIST_FILE = "randersflyveklub/randersflyveklub-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Randers Flyveklub App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35FB996C17F18D1000A30CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/randersflyveklub.app/randersflyveklub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randersflyveklub/randersflyveklub-Prefix.pch";
+				INFOPLIST_FILE = "randersflyveklubTests/randersflyveklubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		35FB996D17F18D1000A30CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/randersflyveklub.app/randersflyveklub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randersflyveklub/randersflyveklub-Prefix.pch";
+				INFOPLIST_FILE = "randersflyveklubTests/randersflyveklubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35FB992017F18D1000A30CF5 /* Build configuration list for PBXProject "randersflyveklub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FB996617F18D1000A30CF5 /* Debug */,
+				35FB996717F18D1000A30CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FB996817F18D1000A30CF5 /* Build configuration list for PBXNativeTarget "randersflyveklub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FB996917F18D1000A30CF5 /* Debug */,
+				35FB996A17F18D1000A30CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FB996B17F18D1000A30CF5 /* Build configuration list for PBXNativeTarget "randersflyveklubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FB996C17F18D1000A30CF5 /* Debug */,
+				35FB996D17F18D1000A30CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35FB991D17F18D1000A30CF5 /* Project object */;
+}

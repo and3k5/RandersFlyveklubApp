@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>DMI mobil website</string>
+		<key>URL</key>
+		<string>http://m.dmi.dk</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Airfields.dk</string>
+		<key>URL</key>
+		<string>http://airfields.dk/</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Randers Flyveklub Webcam</string>
+		<key>URL</key>
+		<string>http://www.randersflyveklub.dk/webcam/#</string>
+	</dict>
+</array>
+</plist>
